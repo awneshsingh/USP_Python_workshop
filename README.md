@@ -266,7 +266,7 @@ Open an `incognito` window from your browser and copy the URL (`http://localhost
 
 + [managing your packages and environments with conda](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/conda.html)
 
-+ [xray](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/xray.html)
++ [xarray](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/xarray.html)
 
 + [brief intro to scikit-learn](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/sklearn.html)
 
