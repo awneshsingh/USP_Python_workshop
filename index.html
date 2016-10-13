@@ -40,18 +40,7 @@
 
 <ul>
 <li><a href="#the-anaconda-python-distribution">The Anaconda python distribution</a></li>
-<li>
-<a href="#installation-of-additional-libraries">Installation of Some additional libraries</a>
-
-<ul>
-<li><a href="#basemap">Basemap</a></li>
-<li><a href="#bokeh">Bokeh</a></li>
-<li><a href="#seaborn">Seaborn</a></li>
-<li><a href="#mplD3">mplD3</a></li>
-<li><a href="#bearcart">bearcart</a></li>
-<li><a href="#folium">folium</a></li>
-</ul>
-</li>
+<li><a href="#installation-of-additional-libraries">Installation of Some additional libraries</a></li>
 <li><a href="#running-the-ipython-notebooks">Running the IPython notebooks</a></li>
 <li><a href="#troubleshooting">Troubleshooting</a></li>
 <li><a href="#rendered-notebooks">Rendered notebooks</a></li>
@@ -84,7 +73,7 @@
 
 <p>In a terminal.</p>
 
-<p>You also need to install <a href="https://github.com/pypa/pip">pip</a> to install packages from the <a href="http://pypi.python.org/pypi">Python Package Index</a>.</p>
+<p>You also might want to install <a href="https://github.com/pypa/pip">pip</a> to install packages from the <a href="http://pypi.python.org/pypi">Python Package Index</a>.</p>
 
 <pre><code>$ conda install pip
 </code></pre>
@@ -109,46 +98,12 @@
 </code></pre>
 
 <h3>
-<a id="bokeh" class="anchor" href="#bokeh" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bokeh</h3>
-
-<p><a href="">Bokeh</a> is a new interactive plotting library developed by the team behind <strong>anaconda</strong>: it is thus installable with conda (if not already installed):</p>
-
-<pre><code>$ conda install bokeh
-</code></pre>
-
-<h3>
 <a id="seaborn" class="anchor" href="#seaborn" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Seaborn</h3>
 
 <p><a href="http://web.stanford.edu/%7Emwaskom/software/seaborn/">seaborn</a> is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics. You should be able to install it with <code>conda</code> as well:</p>
 
 <pre><code>$ conda install seaborn
 </code></pre>
-
-<h3>
-<a id="mpld3" class="anchor" href="#mpld3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>mplD3</h3>
-
-<p><a href="http://mpld3.github.io/">mplD3</a> aims at <em>bringing matplotlib to the browser</em>. It has been developed by Jake VanDerPlas. It is installable using <code>pip</code>:</p>
-
-<pre><code>$ pip install mpld3
-</code></pre>
-
-<h3>
-<a id="bearcart" class="anchor" href="#bearcart" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>bearcart</h3>
-
-<p><a href="https://github.com/wrobstory/bearcart">bearcart</a> has been developed by <a href="http://wrobstory.github.io/">Rob Story</a> and provides an interface to the rickshaw JavaScript library. It is also installable via <code>pip</code>:</p>
-
-<pre><code>$ pip install bearcart
-</code></pre>
-
-<h3>
-<a id="folium" class="anchor" href="#folium" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>folium</h3>
-
-<p><a href="https://github.com/wrobstory/folium">folium</a>  has been also been developed by <a href="http://wrobstory.github.io/">Rob Story</a> to provide an interface to the <a href="http://leafletjs.com/">leaflet.js</a> JavaScript mapping library. Install with:</p>
-
-<pre><code>$ pip install folium
-</code></pre>
-
-<hr size="5">
 
 <h3>
 <a id="xarray" class="anchor" href="#xarray" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>xarray</h3>
@@ -281,24 +236,21 @@ The jupyter Notebook is running at: http://localhost:8888/
 
 <ul>
 <li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/resources.html">resources and acknowledgments</a></p></li>
-<li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/IPython_notebook.html">IPython notebook
+<li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/Jupyter_notebook.html">Jupyter notebook
 overview</a></p></li>
 <li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/introduction_python.html">Python language basics</a></p></li>
 <li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/Numpy.html">Numpy</a></p></li>
 <li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/Scipy.html">Scipy</a></p></li>
-<li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/Matplotlib_Basemap.html">Matplotlib and Basemap</a></p></li>
+<li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/Matplotlib.html">Matplotlib</a></p></li>
 <li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/Pandas.html">Pandas</a></p></li>
 </ul>
 
 <p><strong>SESSION 2</strong></p>
 
 <ul>
-<li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/Interactive_plots.html">Interactive plots in the browser</a></p></li>
-<li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/conda.html">managing your packages and environments with conda</a></p></li>
+<li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/Pandas.html">More on pandas</a></p></li>
 <li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/xarray.html">xarray</a></p></li>
-<li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/sklearn.html">brief intro to scikit-learn</a></p></li>
-<li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/sklearn_EOF_decomposition.html">EOF decomposition of Pacific SSTs with scikit-learn</a></p></li>
-<li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/sklearn_kmeans.html">k-means clustering of Pacific SSTs with scikit-learn</a></p></li>
+<li><p><a href="https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/Basemap.html">Basemap</a></p></li>
 </ul>
 
       <footer class="site-footer">
