@@ -15,12 +15,6 @@ Nicolas Fauchereau
 
 - [The Anaconda python distribution](#the-anaconda-python-distribution)
 - [Installation of Some additional libraries](#installation-of-additional-libraries)
-  - [Basemap](#basemap)
-  - [Bokeh](#bokeh)
-  - [Seaborn](#seaborn)
-  - [mplD3](#mplD3)
-  - [bearcart](#bearcart)
-  - [folium](#folium)
 - [Running the IPython notebooks](#running-the-ipython-notebooks)
 - [Troubleshooting](#troubleshooting)
 - [Rendered notebooks](#rendered-notebooks)
@@ -53,7 +47,7 @@ $ conda update anaconda
 
 In a terminal.
 
-You also need to install [pip](https://github.com/pypa/pip) to install packages from the [Python Package Index](http://pypi.python.org/pypi).
+You also might want to install [pip](https://github.com/pypa/pip) to install packages from the [Python Package Index](http://pypi.python.org/pypi).
 
 ```
 $ conda install pip
@@ -77,14 +71,6 @@ $ conda install netcdf4
 $ conda install basemap
 ```
 
-### Bokeh
-
-[Bokeh]() is a new interactive plotting library developed by the team behind **anaconda**: it is thus installable with conda (if not already installed):
-
-```
-$ conda install bokeh
-```
-
 ### Seaborn
 
 [seaborn](http://web.stanford.edu/~mwaskom/software/seaborn/) is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics. You should be able to install it with ```conda``` as well:
@@ -92,33 +78,6 @@ $ conda install bokeh
 ```
 $ conda install seaborn
 ```
-
-### mplD3
-
-[mplD3](http://mpld3.github.io/) aims at *bringing matplotlib to the browser*. It has been developed by Jake VanDerPlas. It is installable using ```pip```:
-
-```
-$ pip install mpld3
-```
-
-### bearcart
-
-[bearcart](https://github.com/wrobstory/bearcart) has been developed by [Rob Story](http://wrobstory.github.io/) and provides an interface to the rickshaw JavaScript library. It is also installable via ```pip```:
-
-```
-$ pip install bearcart
-```
-
-### folium
-
-[folium](https://github.com/wrobstory/folium)  has been also been developed by [Rob Story](http://wrobstory.github.io/) to provide an interface to the [leaflet.js](http://leafletjs.com/) JavaScript mapping library. Install with:
-
-```
-$ pip install folium
-```
-
-<hr size=5>
-
 ### xarray
 
 [xarray](https://github.com/xarray/xarray) (previously *xray*) is a library aimed at bringing the power of Pandas to multidimensional labelled arrays, such as the ones usually associated with geophysical quantities varying along time and space dimensions (e.g. [time, latitudes, longitudes], [time, level, latitudes, longitudes], etc) and supports reading and writing netcdf files. It can be installed via `conda`:
@@ -247,8 +206,8 @@ Open an `incognito` window from your browser and copy the URL (`http://localhost
 
 + [resources and acknowledgments](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/resources.html)
 
-+ [IPython notebook
-  overview](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/IPython_notebook.html)
++ [Jupyter notebook
+  overview](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/Jupyter_notebook.html)
 
 + [Python language basics](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/introduction_python.html)
 
@@ -256,20 +215,14 @@ Open an `incognito` window from your browser and copy the URL (`http://localhost
 
 + [Scipy](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/Scipy.html)
 
-+ [Matplotlib and Basemap](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/Matplotlib_Basemap.html)
++ [Matplotlib](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/Matplotlib.html)
 
 + [Pandas](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_1/notebooks/Pandas.html)
 
 **SESSION 2**
 
-+ [Interactive plots in the browser](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/Interactive_plots.html)
-
-+ [managing your packages and environments with conda](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/conda.html)
++ [More on pandas](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/Pandas.html)
 
 + [xarray](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/xarray.html)
 
-+ [brief intro to scikit-learn](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/sklearn.html)
-
-+ [EOF decomposition of Pacific SSTs with scikit-learn](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/sklearn_EOF_decomposition.html)
-
-+ [k-means clustering of Pacific SSTs with scikit-learn](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/sklearn_kmeans.html)
++ [Basemap](https://cdn.rawgit.com/nicolasfauchereau/USP_Python_workshop/master/session_2/notebooks/Basemap.html)
