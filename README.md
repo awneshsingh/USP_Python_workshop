@@ -101,8 +101,6 @@ That should bring up the Jupyter notebook dashboard (looking as below), you shou
 
 ![](http://nbviewer.ipython.org/github/nicolasfauchereau/Python-for-data-analysis-and-visualisation/blob/master/session_1/notebooks/images/ipython_dashboard.png)
 
-You should see in particular a ```test.ipynb``` notebook: please run it to make sure all the necessary libraries have been installed correctly. If you followed the instructions above (install the [anaconda python distribution](http://continuum.io/downloads)) it should be fine, this test notebook is mostly intended for those who have a *custom* python installation.
-
 ## Troubleshooting
 
 You might run into some problems installing additional libraries via `conda` or `pip` and / or running the IPython notebooks, especially on Windows machines behind a proxy, here are a few solutions that may work:
